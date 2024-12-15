@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POCHI - The Cozy Sanctuary</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>    
+<body onload="console.log('Page Loaded')">
+<div class="header">
+    <h1>POCHI - The Cozy Sanctuary</h1>
+    <p>부산소마고의 동아리 Da'at의 신작, POCHI! 멸종위기동물을 잡아 보호소로 이송시키고, <br>보상금으로 더 좋은 장비를 구입하세요. 도감을 채우며, 자유롭게 힐링하세요!</p>
+    <a href="game.html" class="play-button" onclick="console.log('Play button clicked')">Play</a>
+</div>
+
+<div class="goal-image">
+    <img src="Images/당신의 목표.png" alt="당신의 목표">
+</div>
+
+<div class="team">
+    <h2>멤버 소개</h2>
+    <div class="team-tabs">
+        <div class="team-tab active" data-category="planners" onclick="showTeam('planners')">기획자</div>
+        <div class="team-tab" data-category="designers" onclick="showTeam('designers')">디자이너</div>
+        <div class="team-tab" data-category="developers" onclick="showTeam('developers')">개발자</div>
+    </div>
+    <div id="planners" class="team-container active">
+        <img src="Images/박현호.png" alt="박현호">
+        <img src="Images/이동건.png" alt="이동건">
+    </div>
+    <div id="designers" class="team-container">
+        <img src="Images/박수빈.png" alt="박수빈">
+        <img src="Images/안시현.png" alt="안시현">
+        <img src="Images/이효준.png" alt="이효준">
+        <img src="Images/천현수.png" alt="천현수">
+    </div>
+    <div id="developers" class="team-container">
+        <img src="Images/김주영.png" alt="김주영">
+        <img src="Images/이신우.png" alt="이신우">
+        <img src="Images/이수환.png" alt="이수환">
+        <img src="Images/김유찬.png" alt="김유찬">
+    </div>
+</div>
+
+<div class="faq">
+    <h2>Unveilling Clarity: Your Questions Answered</h2>
+    <ul>
+        <li>어떤 기술스택을 사용하나요?<span>Photoshop으로 디자인을 하고, Unity로 개발을 하였습니다.</span></li>
+        <li>게임 내에서 구매할 수 있는 아이템은 무엇이 있나요?<span>그물, 그물총, 랜턴 등의 아이템을 구매 할 수 있습니다.</span></li>
+        <li>Da'at에는 어떤 학생들이 있나요?<span>Da’at에는 창의적이고 열정적이며 협력을 통해 함께 성장하려는 학생들이 모여 있습니다.</span></li>
+    </ul>
+</div>
+
+<div class="footer">
+    <p>부산소프트웨어마이스터고등학교 게임 동아리 - Da'at</p>
+    <p>Copyright © Da'at</p>
+</div>
+
+</body>
+</html>
